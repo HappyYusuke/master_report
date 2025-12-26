@@ -1,0 +1,67 @@
+\begin{thebibliography}{10}
+
+\bibitem{7}
+岡野昭伍, 牧野達仁, 出村公成.
+\newblock
+  蛍光テクスチャによる深層学習のための三次元情報を含む自動アノテーション手法の提案.
+\newblock 日本ロボット学会論文誌, Vol.~40, No.~1, 2022.
+
+\bibitem{3}
+内海佑斗, 和田健太郎, 岡田慧, 稲葉雅幸.
+\newblock
+  物体メッシュモデルを用いた学習データ自動生成に基づく透明物体の深度画像予測と家事支援ロボットへの応用.
+\newblock 人工知能学会全国大会論文集, Vol. JSAI2018, No.~0, pp. 3L202--3L202,
+  2018.
+
+\bibitem{4}
+Konstantinos Bousmalis, Alex Irpan, Paul Wohlhart, Yunfei Bai, Matthew Kelcey,
+  Mrinal Kalakrishnan, Laura Downs, Julian Ibarz, Peter Pastor, Kurt Konolige,
+  et~al.
+\newblock Using simulation and domain adaptation to improve efficiency of deep
+  robotic grasping.
+\newblock pp. 4243--4250, 2018.
+
+\bibitem{2}
+岡田眞也, 上田隆一, 林原靖男.
+\newblock 引き紐を利用した視覚と行動の end-to-end
+  学習による移動ロボットの人追従行動の生成.
+\newblock 人工知能学会全国大会論文集, pp. 1082--1086, 2019.
+
+\bibitem{5}
+Takuya Kiyokawa, Keita Tomochika, Jun Takamatsu, and Tsukasa Ogasawara.
+\newblock Fully automated annotation with noise-masked visual markers for
+  deep-learning-based object detection.
+\newblock {\em IEEE Robotics and Automation Letters}, Vol.~4, No.~2, pp.
+  1972--1977, Feb 2019.
+
+\bibitem{6}
+Takuya Kiyokawa, Keita Tomochika, Jun Takamatsu, and Tsukasa Ogasawara.
+\newblock Efficient collection and automatic annotation of real-world object
+  images by taking advantage of post-diminished multiple visual markers.
+\newblock {\em Advanced Robotics}, Vol.~33, No.~24, pp. 1264--1280, 2019.
+
+\bibitem{1}
+Takahashi Kuniyuki and Yonekura Kenta.
+\newblock Invisible marker: Automatic annotation of segmentation masks for
+  object manipulation.
+\newblock {\em International Conference on Intelligent Robots and Systems},
+  2020.
+
+\bibitem{10}
+Simon Baker, Daniel Scharstein, JP~Lewis, Stefan Roth, Michael~J Black, and
+  Richard Szeliski.
+\newblock A database and evaluation methodology for optical flow.
+\newblock {\em International journal of computer vision}, Vol.~92, No.~1, pp.
+  1--31, 2011.
+
+\bibitem{8}
+He~Kaiming, Zhang Xiangyu, Ren Shaoqing, and Sun Jian.
+\newblock Deepresidual learning for image recognition.
+\newblock {\em CVPR}, 2016.
+
+\bibitem{9}
+Ronneberger Olaf, Fischer Philipp, and Brox Thomas.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock {\em CVPR}, 2015.
+
+\end{thebibliography}

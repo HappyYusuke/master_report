@@ -1,0 +1,43 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Image of centroid (著者\cite {深層学習を用いた人追従機能の開発}から転載)}}{4}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Data Acquisition Environment (著者\cite {深層学習を用いた人追従機能の開発}から転載)}}{4}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Human recognition (著者\cite {Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR}から転載)}}{5}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces LIDAR data processing (著者\cite {Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR}から転載)}}{6}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Kitchen scenario (著者\cite {Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR}から転載)}}{6}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture of the CNN used by PeTra (著者\cite {Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments}から転載)}}{7}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Robotics mobile lab plan (left), Orbi-One robot (center), and KIO RTLS anchors (right). (著者\cite {Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments}から転載)}}{8}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Comparison image of PeTra and LD by Rviz (著者\cite {Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments}から転載)}}{8}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Person following in environments with obstacles (著者\cite {A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}から転載)}}{10}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The architecture of our person-following system (著者\cite {A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}から転載)}}{10}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Human legs detection and human tracking (著者\cite {A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}から転載)}}{10}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Kalman filter tracking in occluded environments (著者\cite {A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}から転載)}}{11}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Following trajectory in environments with obstacles (著者\cite {A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}から転載)}}{11}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System configuration chart}}{14}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Software configuration diagram}}{15}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of an overhead view image}}{17}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Example data sets}}{17}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Training results}}{18}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of inference results with YOLOv8 using learned weights}}{18}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Multiple leg sections detected on both legs}}{19}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Target identification methods}}{19}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Happy Edu}}{22}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 206)}}{24}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 326)}}{24}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Straight road}}{25}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Curved road}}{25}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Right angle road}}{25}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Maximum tracking speed experiment environment image (FMT Laboratory Room 326)}}{26}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Image of maximum tracking speed experiment}}{26}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tracking experiment (Real view)}}{27}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Tracking experiment (Internal view)}}{27}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Tracking speed graph}}{28}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

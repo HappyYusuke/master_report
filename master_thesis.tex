@@ -1,0 +1,144 @@
+\documentclass[12pt,a4paper]{jreport}
+\usepackage{KIT-j-master}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{comment}
+%\usepackage{graphicx}
+%\usepackage{subeqn}
+%\usepackage{eqnarray}
+\usepackage{newtheorem_thesis}
+\usepackage[dvipdfmx]{color}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{subfigure}
+\usepackage{slashbox}
+\usepackage{here}
+\usepackage{cite}
+%KANAZAWA custom
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{indentfirst}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ソースコードを表示するための設定
+%（テンプレートには無い設定・listings & jlistingをインストールすること）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ascmac}
+\usepackage{here}
+\usepackage{txfonts}
+\usepackage{listings,jlisting}
+\usepackage{bm}
+\usepackage{lscape}
+
+\lstdefinestyle{customC++}{
+	language={C++},% 使用する言語
+	tabsize=2,%
+	basicstyle=\footnotesize,%
+	commentstyle=\textit,%
+	classoffset=1,%
+	keywordstyle=\bfseries,%
+	frame=tRBl,framesep=5pt,%
+	showstringspaces=false,%
+	numbers=left,stepnumber=1,numberstyle=\footnotesize,%
+	breaklines=true,%        折り返しの設定
+	breakatwhitespace=true,% 折り返しの設定
+	lineskip=-0.3ex%  
+}
+
+\lstdefinestyle{customhtml}{
+	language={html},% 使用する言語
+	tabsize=2,%
+	basicstyle=\footnotesize,%
+	commentstyle=\textit,%
+	classoffset=1,%
+	keywordstyle=\bfseries,%
+	frame=tRBl,framesep=5pt,%
+	showstringspaces=false,%
+	numbers=left,stepnumber=1,numberstyle=\footnotesize,%
+	breaklines=true,%        折り返しの設定
+	breakatwhitespace=true,% 折り返しの設定
+	lineskip=-0.3ex%  
+}
+
+\lstdefinestyle{custompy}{
+	language={python},% 使用する言語
+  	basicstyle=\ttfamily\scriptsize,
+ 	commentstyle={\itshape \color[cmyk]{1,0.4,1,0}},
+	classoffset=1,
+	keywordstyle={\bfseries \color[cmyk]{0,1,0,0}},
+	stringstyle={\ttfamily \color[rgb]{0,0,1}},
+	frame=tRBl,
+	framesep=5pt,
+	showstringspaces=false,
+	numbers=left,
+	stepnumber=1,
+	numberstyle=\tiny,
+	tabsize=2,
+}
+\lstset{escapechar=@,style=customC++}
+
+%\renewcommand{\lstlistingname}{リスト}
+%\lstset{language=C++,%
+%tabsize=2,%
+%basicstyle=\footnotesize,%
+%commentstyle=\textit,%
+%classoffset=1,%
+%keywordstyle=\bfseries,%
+%frame=tRBl,framesep=5pt,%
+%showstringspaces=false,%
+%numbers=left,stepnumber=1,numberstyle=\footnotesize,%
+%breaklines=true,%        折り返しの設定
+%breakatwhitespace=true,% 折り返しの設定
+%lineskip=-0.3ex%         行間をつめる設定
+%}
+
+\title{2D-LiDARとYOLOv8を用いた人追従システムの開発}
+\author{金澤　祐典}
+\eauthor{KANAZAWA Yusuke}
+\school{金沢工業大学}
+\major{工学部}
+\course{ロボティクス学科}
+\adviser{出村 公成}
+\date{令和5年度\\2024年2月8日}
+
+\begin{document}
+\maketitle
+
+%\pagestyle{headings}
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{序　論}
+\input{01_introduction/intro.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{従来研究}
+\input{02_back_ground/background_overview.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{提案手法}
+\input{03_propose_method/method.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{実験}
+\input{04_experiment/experiment.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{結　論}
+\input{05_conclusion/conclusion.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{謝　辞}
+\input{acknowledgement.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{reference/reference.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{付録}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{appendix.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

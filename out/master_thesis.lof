@@ -1,0 +1,44 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Research classification}}{3}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of proposed method}}{10}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Point cloud with fluorescent texure}}{12}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diffrence in appearance of fluorescent paint}}{14}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Environment in visible light source}}{14}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Difference in line segment width due to uv intensity (N=100)}}{16}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Green cloth class raw image}}{18}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Green cloth class ground-truth image}}{18}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Red cloth class raw image}}{18}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Red cloth class ground-truth image}}{18}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Green marker class raw image}}{19}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Green marker class ground-truth image}}{19}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Red marker class raw image}}{19}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Red marker class ground-truth image}}{19}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Raw image}}{21}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Predict image}}{21}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ground-truth image}}{21}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Inferred result of semantic segmentation}}{21}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Marker rotation error (N=100)}}{23}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Marker position error (N=100)}}{23}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Different in accuracy due to UV intensity (N=100)}}{25}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Different in accuracy due to texture (N=100)}}{26}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Position error due to UV intensity (N=100)}}{27}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Accuracy of fluorescent grid textures for difficult to recognize objects (N=100)}}{29}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Metal object under UV light source}}{29}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Metal object under visible light source}}{29}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Mirror under UV light source}}{30}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Mirror under visible light source}}{30}{}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Transparent bottle under UV light source}}{30}{}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Transparent bottle under visible light source}}{30}{}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Transparent bottle with self-occlusion under UV light source}}{30}{}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Transparent bottle with self-occlusion under visible light source}}{30}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diffrence in appearance of fluorescent paint}}{32}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
