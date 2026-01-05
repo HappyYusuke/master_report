@@ -1,15 +1,16 @@
-% jreport.cls 23 Dec 01
+% english-report.sty
+% Based on scl-j-master (23 Dec 01)
+% Modified for English Master's Thesis
 
-\typeout{Document Style `scl-j-master' <23 Jan 01>.}
+\typeout{Document Style 'scl-e-master' (English Version).}
 
 \def\@ptsize{0} \@namedef{ds@11pt}{\def\@ptsize{1}}
 \@namedef{ds@12pt}{\def\@ptsize{2}} 
 \def\ds@twoside{\@twosidetrue \@mparswitchtrue}
 \def\ds@draft{\overfullrule 5pt} 
 \@options
-%\input jrep1\@ptsize.sty\relax
-
 
+% --- Page Layout (Kept original settings) ---
 \parindent      1.0em
 
 \topmargin      -1.09cm % 1 inch=2.54cm 0.46+2.54=3.0cm
@@ -20,6 +21,7 @@
 \textwidth      16.35cm % A4 width=21.0cm
 \textheight     24.7cm  % A4 height=29.7cm
 
+% --- Lists ---
 \def\labelenumi{\theenumi.} 
 \def\theenumi{\arabic{enumi}} 
 \def\labelenumii{(\theenumii)}
@@ -37,6 +39,7 @@
 \def\labelitemiii{$\ast$}
 \def\labelitemiv{$\cdot$}
 
+% --- Environments ---
 \def\verse{\let\\=\@centercr 
  \list{}{\itemsep\z@ \itemindent -1.5em\listparindent \itemindent 
  \rightmargin\leftmargin\advance\leftmargin 1.5em}\item[]}
@@ -54,8 +57,8 @@
 \let\enddescription\endlist
 \newdimen\descriptionmargin
 \descriptionmargin=3em
-
 
+% --- Title Page Setup ---
 \def\titlepage{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
  \else \newpage \fi \thispagestyle{empty}\c@page\z@}
 \def\endtitlepage{\if@restonecol\twocolumn \else \newpage \fi}
@@ -64,8 +67,8 @@
 \tabbingsep \labelsep 
 \skip\@mpfootins = \skip\footins
 \fboxsep = 3pt \fboxrule = .4pt 
-
 
+% --- Sectioning ---
 \def\thepart {\Roman{part}}
 \def\thechapter {\arabic{chapter}}
 \def\thesection {\thechapter.\arabic{section}}
@@ -73,7 +76,6 @@
 \def\thesubsubsection {\thesubsection .\arabic{subsubsection}}
 \def\theparagraph {\thesubsubsection.\arabic{paragraph}}
 \def\thesubparagraph {\theparagraph.\arabic{subparagraph}}
-%\def\@chapapp{Chapter}
 
 \def\part{\cleardoublepage \thispagestyle{plain} \if@twocolumn \onecolumn
 \@tempswatrue \else \@tempswafalse \fi \hbox{}\vfil \secdef\@part\@spart} 
@@ -88,7 +90,7 @@
  \fi \if@tempswa \twocolumn \fi} 
 \def\@spart#1{{\centering \Huge \bf #1\par}\@endpart}
 
-
+% --- Table of Contents (Modified for English) ---
 \def\@pnumwidth{1.55em}
 \def\@ppnumwidth{0.55em}
 \def\@tocrmarg {2.55em}
@@ -98,9 +100,8 @@
 \def\tableofcontents{%
   \if@twocolumn\@restonecoltrue\onecolumn
   \else\@restonecolfalse\fi
-  \chapter*{目 次%\@mkboth{目 次}{目 次}
-  }
- \@starttoc{toc}%
+  \chapter*{Table of Contents} % Changed from 目次
+  \@starttoc{toc}%
   \if@restonecol\twocolumn\fi}
 
 \def\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
@@ -109,22 +110,22 @@
 \def\l@paragraph{\@dottedtocline{4}{10em}{5em}}
 \def\l@subparagraph{\@dottedtocline{5}{12em}{6em}}
 
+% --- List of Figures (Modified for English) ---
 \def\listoffigures{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
- \fi\chapter*{図 目 次}%\@mkboth{図 目 次}{図 目 次}
-                                        %章のナンバーをなくすための処理    
+ \fi\chapter*{List of Figures} % Changed from 図目次
     \@starttoc{lof}\if@restonecol\twocolumn
  \fi}
 \def\l@figure{\@dottedtocline{1}{1.5em}{2.3em}}
+
+% --- List of Tables (Modified for English) ---
 \def\listoftables{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
- \fi\chapter*{表 目 次}%\@mkboth{表 目 次}{表 目 次}
-                                        %章のナンバーをなくすための処理
+ \fi\chapter*{List of Tables} % Changed from 表目次
     \@starttoc{lot}\if@restonecol
  \twocolumn\fi}
 \let\l@table\l@figure
 
-
-\def\thebibliography#1{\chapter*{参考文献}%\@mkboth{参考文献}{参考文献}}
-　                                        %章のナンバーをなくすための処理
+% --- Bibliography (Modified for English) ---
+\def\thebibliography#1{\chapter*{References} % Changed from 参考文献
  \list
  {[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
  \advance\leftmargin\labelsep
@@ -133,20 +134,21 @@
  \sloppy
  \sfcode`\.=1000\relax}
 \let\endthebibliography=\endlist
- 
-
+
+% --- Index (Modified for English) ---
 \newif\if@restonecol
 \def\theindex{\@restonecoltrue\if@twocolumn\@restonecolfalse\fi
 \columnseprule \z@
-\columnsep 35pt\twocolumn[\@makeschapterhead{索 引}]
- \@mkboth{索 引}{索 引}\thispagestyle{plain}\parindent\z@
+\columnsep 35pt\twocolumn[\@makeschapterhead{Index}] % Changed from 索引
+ \@mkboth{Index}{Index}\thispagestyle{plain}\parindent\z@
  \parskip\z@ plus .3pt\relax\let\item\@idxitem}
 \def\@idxitem{\par\hangindent 40pt}
 \def\subitem{\par\hangindent 40pt \hspace*{20pt}}
 \def\subsubitem{\par\hangindent 40pt \hspace*{30pt}}
 \def\endtheindex{\if@restonecol\onecolumn\else\clearpage\fi}
 \def\indexspace{\par \vskip 10pt plus 5pt minus 3pt\relax}
-
+
+% --- Footnotes ---
 \def\footnoterule{\kern-3\p@ 
  \hrule width .4\columnwidth 
  \kern 2.6\p@} 
@@ -154,7 +156,7 @@
 \long\def\@makefntext#1{\parindent 1em\noindent 
  \hbox to 1.8em{\hss$^{\@thefnmark}$}#1}
 
-
+% --- Floats (Captions) ---
 \setcounter{topnumber}{2}
 \def\topfraction{.7}
 \setcounter{bottomnumber}{1}
@@ -173,7 +175,6 @@
 to\hsize{\hfil\box\@tempboxa\hfil} 
  \fi}
 
-
 %\newcounter{figure}[chapter]
 \def\thefigure{\thechapter.\@arabic\c@figure}
 \def\fps@figure{tbp}
@@ -184,6 +185,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \let\endfigure\end@float
 \@namedef{figure*}{\@dblfloat{figure}}
 \@namedef{endfigure*}{\end@dblfloat}
+
 %\newcounter{table}[chapter]
 \def\thetable{\thechapter.\@arabic\c@table}
 \def\fps@table{tbp}
@@ -194,7 +196,8 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \let\endtable\end@float
 \@namedef{table*}{\@dblfloat{table}}
 \@namedef{endtable*}{\end@dblfloat}
-
+
+% --- Title Page Generation ---
 %\input titlepage.sty
 
 \newlength{\titletopskip}
@@ -207,11 +210,11 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 % \vskip \titletopskip % \vfil
 \vskip 30pt 
 \begin{center}
-{\Large P \ D \ III} \par
+{\Large Master's Thesis} \par
 \vskip 40pt
 {\Large\bf \@title \par}
 \vskip 40pt
-指導教員 \ \ {\large \@adviser}\ \ 教授  \par
+Supervisor: Professor {\large \@adviser}  \par
 
 \end{center} \par
 \@thanks
@@ -237,13 +240,15 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 
 \setcounter{footnote}{0} \let\thanks\relax
 \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\maketitle\relax} 
+
+% --- Abstract (Modified for English) ---
 \def\abstract{\titlepage
 \null\vfil
 \begin{center}
 {\bf \abstractname}
 \end{center}}
 \def\endabstract{\par\vfil\null\endtitlepage}
-
+
 \def\school#1{\def\@school{#1}}
 \def\major#1{\def\@major{#1}}
 \def\course#1{\def\@course{#1}}
@@ -254,7 +259,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \def\crnotify#1{\def\@crnotify{#1}}
 \crnotify{}
 
-
+% --- Headers ---
 \mark{{}{}} 
 
 \if@twoside 
@@ -266,7 +271,7 @@ to\hsize{\hfil\box\@tempboxa\hfil}
  \def\chaptermark##1{\markboth%
    {\uppercase%
    {\ifnum \c@secnumdepth >\m@ne
-     第\ \thechapter \ 章 \ \fi ##1}}{}
+      Chapter\ \thechapter\ \fi ##1}}{}
    }
  \def\sectionmark##1{\markright
   {\uppercase{\ifnum \c@secnumdepth >\z@
@@ -276,11 +281,12 @@ to\hsize{\hfil\box\@tempboxa\hfil}
  \def\@oddfoot{}
  \def\@evenfoot{}
  \def\@oddhead{\hbox {}\sl \rightmark \hfil \rm\thepage}
+ \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox{}}
  \def\chaptermark##1{\markright%
  {\uppercase%
  {\ifnum \c@secnumdepth >\m@ne
-    \ifnum \@chapternumber > 0  %章のナンバーが無いときヘッダーの章のナ
-       第\ \thechapter \ 章 \   % ンバーをなくす
+    \ifnum \@chapternumber > 0  
+       Chapter\ \thechapter\ 
     \fi
   \fi
    ##1}}}
@@ -294,50 +300,56 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \def\@evenfoot{}\def\chaptermark##1{}%
 \def\sectionmark##1{}\def\subsectionmark##1{}}
 
-
-\newif\if西暦\let\if西暦=\iffalse \def\西暦{\let\if西暦=\iftrue}
-\def\today{{\if西暦\count0=\year\else%
-\count0=\year\advance\count0 -1988 平成\,\fi%
-\ifnum\count0=1 元\else\number\count0\fi\,年\hspace{.5em}\nobreak%
-\number\month\,月\hspace{.5em}\nobreak\number\day\,日}}
+% --- Date Settings (Modified for English) ---
+% Replaced complex Japanese calendar logic with standard English date format
+\def\today{\ifcase\month\or
+  January\or February\or March\or April\or May\or June\or
+  July\or August\or September\or October\or November\or December\fi
+  \space\number\day, \number\year}
+
 \@addtoreset{equation}{chapter} 
 \def\theequation{\thechapter.\arabic{equation}}
 
-
+% --- Layout Adjustments ---
 \ps@plain \pagenumbering{arabic} \onecolumn \if@twoside\else\raggedbottom\fi 
 %
-%
-%  行間を開ける
+% Line Spacing
 %
 \renewcommand{\baselinestretch}{1.3}
 %
-\def\abstractname{要 旨}
+% Names (Modified for English)
+%
+\def\abstractname{Abstract}
 \def\eabstractname{Abstract}
 %
+% Publication List (Modified for English)
 \newenvironment{publication}%
-{\chapter*{本研究に関する発表論文}\newcounter{pubnum}\begin{list}%
+{\chapter*{Publications Related to This Study}\newcounter{pubnum}\begin{list}%
 {[\arabic{pubnum}]}{\usecounter{pubnum}}}{\end{list}}
 
 %
-%　ヘッダのページ番号について設定している
+% Header Page Number Style
 %
 \pagestyle{headings}
 %\pagestyle{headnombre}
 
 \def\chapter{%
   \if@openright\cleardoublepage\else\clearpage\fi
-%  \thispagestyle{empty}%   章の始まりのヘッダページナンバーをなくす
-%  \thispagestyle{jpl@in}%　章の始まりのヘッダページナンバーを下にする　
+%  \thispagestyle{empty}%  
+%  \thispagestyle{jpl@in}% 
   \global\@topnum\z@
   \@afterindentfalse
   \secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{%
-  \def\@chapternumber{1}   %章にナンバーがあるか無いか判断するための変数
+  \def\@chapternumber{1}   
   \ifnum \c@secnumdepth >\m@ne
     \refstepcounter{chapter}%
     \typeout{\@chapapp\space\thechapter\space\@chappos}%
+    % 目次の「第・章」を「Chapter」に変更する設定
+    \def\@chapapp{Chapter\ } % 前につく文字（スペース含む）
+    \def\@chappos{}          % 後ろにつく文字（なし）
     \addcontentsline{toc}{chapter}%
-      {\protect\numberline{\@chapapp\thechapter\@chappos}#1}%
+      {\protect\numberline{\@chapapp\thechapter\@chappos}#1}%%%
   \else
     \addcontentsline{toc}{chapter}{#1}%
   \fi
@@ -349,18 +361,18 @@ to\hsize{\hfil\box\@tempboxa\hfil}
 \def\@makechapterhead#1{ \vspace*{50pt}%
   { \parindent 0pt \raggedright 
     \ifnum \c@secnumdepth >\m@ne 
-      \huge\bf 第{} \thechapter 章\par
+      \huge\bf Chapter{} \thechapter\ \par
         \vskip 20pt 
     \fi
-       \Huge \bf #1\par 
-   \nobreak \vskip 40pt } }
+        \Huge \bf #1\par 
+    \nobreak \vskip 40pt } }
 
 \def\@schapter#1{%
   \def\@chapternumber{0}
-  \ifnum \thechapter > 0  % 目次に目次などを入れないためのもの
+  \ifnum \thechapter > 0  
   \ifnum \c@secnumdepth >\m@ne
-    \addcontentsline{toc}{chapter}{#1}%　左寄せのtocファイルを作る
-%      {\protect\numberline{}#1}% 左寄せしないtocファイルを作る
+    \addcontentsline{toc}{chapter}{#1}% 
+%      {\protect\numberline{}#1}% 
 %  \else
 %    \addcontentsline{toc}{chapter}{#1}%
   \fi
