@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2025.6.23)  6 JAN 2026 09:16
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2025.6.23)  6 JAN 2026 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,7 +381,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 105.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 127.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
@@ -393,81 +393,80 @@ File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count309
 \g__pdf_backend_link_int=\count310
 \g__pdf_backend_link_sf_int=\count311
-)
-No file master_thesis.aux.
+) (./master_thesis.aux)
 \openout1 = `master_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 105.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 105.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 127.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 127.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 105.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 105.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 127.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 127.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 105.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 105.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 127.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 127.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 105.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 105.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 127.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 127.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count312
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <17.28> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 106.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 106.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <17.28> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 106.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 106.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 106.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 128.
 File: KIT_kosho.eps Graphic file (type eps)
 <KIT_kosho.eps>
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 106.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 106.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 106.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 106.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 106.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 106.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [0
@@ -475,109 +474,73 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <24.88> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 110.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 110.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <24.88> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 110.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 110.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 110.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 132.
+ (./master_thesis.toc
+LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
+(Font)              No change on input line 26.
+ [1
 
-No file master_thesis.toc.
+])
 \tf@toc=\write4
 \openout4 = `master_thesis.toc'.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 111.
-[1
+(Font)              No change on input line 133.
+ [2] (./master_thesis.lof
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
+(Font)              No change on input line 33.
+ [3
 
 ]
-No file master_thesis.lof.
+Overfull \hbox (0.52863pt too wide) in paragraph at lines 35--35
+ [][] []\OT1/txr/m/n/12 Maximum track-ing speed ex-per-i-ment en-vi-ron-ment im-age (FMT Lab-o-ra-tory Room 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `master_thesis.lof'.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 112.
-[2
-
-]
-No file master_thesis.lot.
+(Font)              No change on input line 134.
+ [4] (./master_thesis.lot)
 \tf@lot=\write6
 \openout6 = `master_thesis.lot'.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 113.
-[3
+(Font)              No change on input line 135.
+ [5
 
 ]
 第 1 章
 (./01_introduction/intro.tex
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
-
-
-LaTeX Warning: Citation `統計からみた我が国の高齢者' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `高齢化の現状と将来像' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `近年の建設工事用ロボット開発について' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `既存AGVを超える特長を持った協働運搬ロボット「サウザー」' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `People Detection and Tracking Using LIDAR Sensors' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 1 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Tracking People Using Ankle-Level 2D LiDAR for Gait Analysis' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 1 undefined on input line 20.
-
-)
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 121.
+(Font)              No change on input line 26.
  [1
 
-]
+])
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 121.
+(Font)              No change on input line 143.
  [2]
 Chapter\  2 
 (./02_back_ground/background_overview.tex
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 2.
-
-
-LaTeX Warning: Reference `2-1_Image of centroid' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Reference `2-1_Data Acquisition Environment' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Reference `2-1_Success rate of emergency stops on each road' on page 3 undefined on input line 11.
-
 File: figure/2-1_Image-of-centroid.png Graphic file (type bmp)
 <figure/2-1_Image-of-centroid.png>
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10.95> not available
@@ -591,30 +554,13 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 17.
 
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 17.
-
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 17.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/2-1_Data-Acquisition-Environment.png Graphic file (type bmp)
 <figure/2-1_Data-Acquisition-Environment.png>
 
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 25.
-
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 25.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `深層学習を用いた人追従機能の開発' on page 3 undefined on input line 33.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 48.
@@ -624,33 +570,6 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 48.
  [4]
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 51.
-
-
-LaTeX Warning: Reference `2-2_LIDAR data processing' on page 5 undefined on input line 53.
-
-
-LaTeX Warning: Reference `2-2_LIDAR data processing' on page 5 undefined on input line 53.
-
-
-LaTeX Warning: Reference `2-2_LIDAR data processing' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Reference `2-2_LIDAR data processing' on page 5 undefined on input line 57.
-
-
-LaTeX Warning: Reference `2-2_Human recognition' on page 5 undefined on input line 58.
-
-
-LaTeX Warning: Reference `2-2_LIDAR data processing' on page 5 undefined on input line 59.
-
-
-LaTeX Warning: Reference `2-2_Kitchen scenario' on page 5 undefined on input line 65.
-
-
-LaTeX Warning: Reference `2-2_THE EFFECT OF TRAJECTORY AUGMENTATION' on page 5 undefined on input line 67.
-
 File: figure/2-2_Human-recognition.png Graphic file (type bmp)
 <figure/2-2_Human-recognition.png>
 
@@ -658,34 +577,10 @@ Overfull \hbox (13.42253pt too wide) in paragraph at lines 72--73
  [] 
  []
 
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 73.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 73.
-
 File: figure/2-2_LIDAR-data-processing.png Graphic file (type bmp)
 <figure/2-2_LIDAR-data-processing.png>
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 81.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 81.
-
 File: figure/2-2_Kitchen-scenario.png Graphic file (type bmp)
 <figure/2-2_Kitchen-scenario.png>
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 97.
-
-
-LaTeX Warning: Citation `Temporal convolutional networks for multi-person activity recognition using a 2D LIDAR' on page 5 undefined on input line 97.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 110.
 [5
@@ -694,54 +589,10 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 110.
  [6]
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 114.
-
-
-LaTeX Warning: Reference `2-4_cnn' on page 7 undefined on input line 118.
-
-
-LaTeX Warning: Reference `2-4_env' on page 7 undefined on input line 120.
-
-
-LaTeX Warning: Reference `2-4_env' on page 7 undefined on input line 121.
-
-
-LaTeX Warning: Reference `2-4_result' on page 7 undefined on input line 125.
-
-
-LaTeX Warning: Reference `2-4_result_table' on page 7 undefined on input line 125.
-
-
-LaTeX Warning: Reference `2-4_result' on page 7 undefined on input line 126.
-
-
-LaTeX Warning: Reference `2-4_result' on page 7 undefined on input line 128.
-
-
-LaTeX Warning: Reference `2-4_result' on page 7 undefined on input line 132.
-
-
-LaTeX Warning: Reference `2-4_result_table' on page 7 undefined on input line 133.
-
-
-LaTeX Warning: Reference `2-4_result_table' on page 7 undefined on input line 135.
-
 File: figure/2-4_cnn.png Graphic file (type bmp)
 <figure/2-4_cnn.png>
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 142.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 142.
-
 File: figure/2-4_env.png Graphic file (type bmp)
 <figure/2-4_env.png>
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 151.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 151.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -749,19 +600,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure/2-4_result.png Graphic file (type bmp)
 <figure/2-4_result.png>
 
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 160.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 160.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 169.
-
-
-LaTeX Warning: Citation `Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments' on page 7 undefined on input line 169.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -774,37 +613,8 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 180.
  [8]
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 183.
-
-
-LaTeX Warning: Reference `2-3_real' on page 9 undefined on input line 184.
-
-
-LaTeX Warning: Reference `2-3_system' on page 9 undefined on input line 185.
-
-
-LaTeX Warning: Reference `2-3_overview' on page 9 undefined on input line 192.
-
-
-LaTeX Warning: Reference `2-3_aoaANDlaser' on page 9 undefined on input line 194.
-
-
-LaTeX Warning: Reference `2-3_aoaANDlaser' on page 9 undefined on input line 198.
-
-
-LaTeX Warning: Reference `2-3_real' on page 9 undefined on input line 201.
-
-
-LaTeX Warning: Reference `2-3_result_table' on page 9 undefined on input line 203.
-
 File: figure/2-3_real.png Graphic file (type bmp)
 <figure/2-3_real.png>
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 220.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 220.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -812,52 +622,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure/2-3_system.png Graphic file (type bmp)
 <figure/2-3_system.png>
 
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 229.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 229.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/2-3_overview.png Graphic file (type bmp)
 <figure/2-3_overview.png>
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 238.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 238.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/2-3_aoaANDlaser.png Graphic file (type bmp)
 <figure/2-3_aoaANDlaser.png>
 
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 247.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 247.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/2-3_result.png Graphic file (type bmp)
 <figure/2-3_result.png>
 
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 256.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 256.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 265.
-
-
-LaTeX Warning: Citation `A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments' on page 9 undefined on input line 265.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -874,7 +654,7 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 276.
  [11])
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 124.
+(Font)              No change on input line 146.
  [12
 
 ]
@@ -885,21 +665,12 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
  [13
 
 ]
-
-LaTeX Warning: Reference `System configuration chart' on page 14 undefined on input line 28.
-
 File: figure/System-configration-chart.png Graphic file (type bmp)
 <figure/System-configration-chart.png>
 
 Overfull \hbox (19.03369pt too wide) in paragraph at lines 36--37
  [] 
  []
-
-
-LaTeX Warning: Reference `Software configuration diagram' on page 14 undefined on input line 43.
-
-
-LaTeX Warning: Reference `Software configuration diagram' on page 14 undefined on input line 47.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 52.
@@ -914,61 +685,32 @@ Overfull \hbox (30.3155pt too wide) in paragraph at lines 62--63
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 73.
 [15]
-
-LaTeX Warning: Reference `Example of an overhead view image' on page 16 undefined on input line 94.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 101.
-[16]
-
-LaTeX Warning: Reference `Example data sets' on page 17 undefined on input line 110.
-
+ [16]
 File: figure/laser_img_232.jpg Graphic file (type bmp)
 <figure/laser_img_232.jpg>
 File: figure/Example-data-sets.png Graphic file (type bmp)
 <figure/Example-data-sets.png>
-
-LaTeX Warning: Reference `Training results' on page 17 undefined on input line 135.
-
-
-LaTeX Warning: Reference `Example of inference results with YOLOv8 using learned weights' on page 17 undefined on input line 135.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 137.
-[17]
+ [17]
 File: figure/yolov8-train-results.png Graphic file (type bmp)
 <figure/yolov8-train-results.png>
 File: figure/yolov8_laser_img.png Graphic file (type bmp)
 <figure/yolov8_laser_img.png>
-
-
-LaTeX Warning: Reference `yolo image' on page 18 undefined on input line 156.
-
-
-LaTeX Warning: Reference `Target identification methods' on page 18 undefined on input line 161.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 165.
-[18]
+ [18]
 File: figure/yolo_image.jpg Graphic file (type bmp)
 <figure/yolo_image.jpg>
 File: figure/Target-identification-methods.png Graphic file (type bmp)
 <figure/Target-identification-methods.png>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 189.
- [19]
-
-LaTeX Warning: Reference `angularPID' on page 20 undefined on input line 205.
-
-
-LaTeX Warning: Reference `angularPD' on page 20 undefined on input line 208.
-
-
-LaTeX Warning: Reference `linearPID' on page 20 undefined on input line 217.
-
-)
+ [19])
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 127.
+(Font)              No change on input line 149.
  [20]
 Chapter\  4 
 (./04_experiment/experiment.tex
@@ -982,22 +724,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 20.
-
-
-LaTeX Warning: Reference `Happy Edu' on page 21 undefined on input line 22.
-
-
-LaTeX Warning: Reference `ASUS ROG Strix G16 specification' on page 21 undefined on input line 26.
-
-
-LaTeX Warning: Reference `TurtleBot3 Big Wheel specification' on page 21 undefined on input line 27.
-
-
-LaTeX Warning: Reference `UTM30-LX specification' on page 21 undefined on input line 28.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 29.
-[21
+ [21
 
 ]
 File: figure/Happy_Edu.jpg Graphic file (type bmp)
@@ -1009,29 +738,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `Image of tracking experiment environment (FMT Laboratory Room 206)' on page 22 undefined on input line 93.
-
-
-LaTeX Warning: Reference `Image of tracking experiment environment (FMT Laboratory Room 326)' on page 22 undefined on input line 94.
-
-
-LaTeX Warning: Reference `Straight road' on page 22 undefined on input line 99.
-
-
-LaTeX Warning: Reference `Curved road' on page 22 undefined on input line 99.
-
-
-LaTeX Warning: Reference `Right angle road' on page 22 undefined on input line 99.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 102.
 [22]
-
-LaTeX Warning: Reference `Success rate' on page 23 undefined on input line 108.
-
 File: figure/experimental_env1.JPG Graphic file (type bmp)
 <figure/experimental_env1.JPG>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1064,39 +776,15 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 151.
  [25]
-
-LaTeX Warning: Reference `Maximum tracking speed experiment environment image (FMT Laboratory Room 326)' on page 26 undefined on input line 155.
-
-
-LaTeX Warning: Reference `Image of maximum tracking speed experiment' on page 26 undefined on input line 161.
-
-
-LaTeX Warning: Reference `Image of maximum tracking speed experiment' on page 26 undefined on input line 162.
-
 File: figure/experimental_env3.JPG Graphic file (type bmp)
 <figure/experimental_env3.JPG>
 File: figure/max_experiment_image.JPG Graphic file (type bmp)
 <figure/max_experiment_image.JPG>
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 183.
-[26
+ [26
 
 ]
-
-LaTeX Warning: Reference `Success rate of traking in each road' on page 27 undefined on input line 187.
-
-
-LaTeX Warning: Reference `Tracking experiment (Real view)' on page 27 undefined on input line 191.
-
-
-LaTeX Warning: Reference `Tracking experiment (Internal view)' on page 27 undefined on input line 192.
-
-
-LaTeX Warning: Reference `Tracking experiment (Internal view)' on page 27 undefined on input line 193.
-
-
-LaTeX Warning: Reference `Tracking experiment (Real view)' on page 27 undefined on input line 196.
-
 File: figure/Tracking-experiment-Real-view.jpg Graphic file (type bmp)
 <figure/Tracking-experiment-Real-view.jpg>
 File: figure/Tracking-experiment-Internal-view.png Graphic file (type bmp)
@@ -1105,18 +793,6 @@ File: figure/Tracking-experiment-Internal-view.png Graphic file (type bmp)
 Overfull \hbox (62.47154pt too wide) in paragraph at lines 222--223
  [][] 
  []
-
-
-LaTeX Warning: Reference `Maximum tracking speed experimental result' on page 27 undefined on input line 237.
-
-
-LaTeX Warning: Reference `Tracking speed graph' on page 27 undefined on input line 238.
-
-
-LaTeX Warning: Reference `Maximum tracking speed experimental result' on page 27 undefined on input line 239.
-
-
-LaTeX Warning: Reference `Tracking speed graph' on page 27 undefined on input line 241.
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 (Font)              No change on input line 245.
@@ -1127,15 +803,15 @@ File: figure/Maximum-tracking-speed-experimental-result.png Graphic file (type b
 <figure/Maximum-tracking-speed-experimental-result.png>
 )
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 130.
+(Font)              No change on input line 152.
  [28]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 130.
+(Font)              No change on input line 152.
  [29]
 Chapter\  5 
 (./05_conclusion/conclusion.tex)
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 133.
+(Font)              No change on input line 155.
  [30
 
 ] (./acknowledgement.tex) (./reference/reference.tex
@@ -1159,13 +835,10 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 
 ])
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 140.
+(Font)              No change on input line 162.
  [33] (./appendix.tex
-
-LaTeX Warning: Reference `param' on page 34 undefined on input line 21.
-
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 22.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
@@ -1173,14 +846,11 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
  [34
 
 ]
-
-LaTeX Warning: Reference `image' on page 35 undefined on input line 64.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 104.
-[35]
+(Font)              No change on input line 103.
+ [35]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 147.
+(Font)              No change on input line 145.
  [36]
 Overfull \hbox (87.36043pt too wide) in paragraph at lines 156--157
 [][][][][][][][][][][][][][][][][][][] 
@@ -1191,24 +861,21 @@ Overfull \hbox (68.46046pt too wide) in paragraph at lines 156--157
 [][][][][][][][][][][][][][][][][][]  
  []
 
-
-LaTeX Warning: Reference `person' on page 37 undefined on input line 188.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 189.
+(Font)              No change on input line 188.
 [37]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 231.
+(Font)              No change on input line 230.
  [38]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 271.
+(Font)              No change on input line 270.
  [39]
 Overfull \hbox (107.36272pt too wide) in paragraph at lines 312--313
 [][][][][][][][][][][][][][][][][][][]  
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 318.
+(Font)              No change on input line 317.
 [40]
 Overfull \hbox (101.61398pt too wide) in paragraph at lines 319--320
 [][][][][][][][][][][][][][][][][][][]  
@@ -1220,53 +887,40 @@ Overfull \hbox (71.57462pt too wide) in paragraph at lines 353--354
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 356.
+(Font)              No change on input line 355.
 [41]
+LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
+(Font)              No change on input line 402.
+ [42]
 Overfull \hbox (54.46541pt too wide) in paragraph at lines 402--403
 [][][][][][][][][][][][][][][][][][]  
  []
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 403.
-[42]
-
-LaTeX Warning: Reference `base' on page 43 undefined on input line 434.
-
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 449.
+(Font)              No change on input line 448.
 [43]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 490.
+(Font)              No change on input line 489.
  [44]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 537.
+(Font)              No change on input line 536.
  [45]
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 585.
+(Font)              No change on input line 584.
  [46]
-
-LaTeX Warning: Reference `launch' on page 47 undefined on input line 616.
-
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 634.
-[47])
+(Font)              No change on input line 633.
+ [47])
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 144.
- [48] (./master_thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(Font)              No change on input line 166.
+ [48] (./master_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8104 strings out of 478741
- 127660 string characters out of 5860982
- 653966 words of memory out of 5000000
+ 8112 strings out of 478741
+ 127804 string characters out of 5860982
+ 652966 words of memory out of 5000000
  26338 multiletter control sequences out of 15000+600000
  514569 words of font info for 169 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 55i,10n,69p,427b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,69p,514b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master_thesis.dvi (52 pages, 156320 bytes).
+Output written on master_thesis.dvi (54 pages, 179320 bytes).
