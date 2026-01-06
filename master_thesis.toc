@@ -2,33 +2,34 @@
 \contentsline {section}{\numberline {1.1}はじめに}{1}{}%
 \contentsline {section}{\numberline {1.2}論文構成}{2}{}%
 \contentsline {chapter}{\numberline {Chapter\ 2}Related Work}{3}{}%
-\contentsline {section}{\numberline {2.1}2D-LiDARとYOLOv5を用いた手法}{3}{}%
-\contentsline {section}{\numberline {2.2}2D-LiDARの距離データをクラスタリングする手法}{5}{}%
-\contentsline {section}{\numberline {2.3}FCNと2D-LiDARを用いた手法}{7}{}%
-\contentsline {section}{\numberline {2.4}AOAタグと2D-LiDARを組み合わせた手法}{9}{}%
-\contentsline {section}{\numberline {2.5}従来研究における課題と本プロジェクトの位置づけ}{12}{}%
-\contentsline {chapter}{\numberline {Chapter\ 3}Method}{13}{}%
-\contentsline {section}{\numberline {3.1}概要}{13}{}%
-\contentsline {section}{\numberline {3.2}要求仕様}{13}{}%
-\contentsline {section}{\numberline {3.3}システム構成}{14}{}%
-\contentsline {section}{\numberline {3.4}ソフトウェア構成}{15}{}%
-\contentsline {section}{\numberline {3.5}データセットの作成}{16}{}%
-\contentsline {section}{\numberline {3.6}YOLOv8による学習}{18}{}%
-\contentsline {section}{\numberline {3.7}追従目標の特定}{19}{}%
-\contentsline {section}{\numberline {3.8}ロボット台車の制御}{20}{}%
-\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{21}{}%
-\contentsline {section}{\numberline {4.1}実験目的}{21}{}%
-\contentsline {section}{\numberline {4.2}実験方法}{21}{}%
-\contentsline {subsection}{\numberline {4.2.1}実験機材}{22}{}%
-\contentsline {subsection}{\numberline {4.2.2}追従実験}{23}{}%
-\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{26}{}%
-\contentsline {section}{\numberline {4.3}実験結果}{27}{}%
-\contentsline {subsection}{\numberline {4.3.1}追従実験}{27}{}%
-\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{28}{}%
-\contentsline {section}{\numberline {4.4}考察}{29}{}%
-\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{30}{}%
-\contentsline {section}{\numberline {5.1}まとめ}{30}{}%
-\contentsline {section}{\numberline {5.2}今後の課題}{30}{}%
-\contentsline {chapter}{Acknowledgments}{31}{}%
-\contentsline {chapter}{References}{32}{}%
-\contentsline {chapter}{Appendices}{34}{}%
+\contentsline {section}{\numberline {2.1}2D LiDARを用いた人検出手法}{3}{}%
+\contentsline {section}{\numberline {2.2}3D LiDARを用いた人追従手法}{4}{}%
+\contentsline {section}{\numberline {2.3}単眼カメラを用いたオクルージョンを考慮した人追従手法}{5}{}%
+\contentsline {section}{\numberline {2.4}PointPillars}{7}{}%
+\contentsline {section}{\numberline {2.5}ReID3D}{8}{}%
+\contentsline {section}{\numberline {2.6}従来研究における課題と本研究の位置づけ}{10}{}%
+\contentsline {chapter}{\numberline {Chapter\ 3}Method}{11}{}%
+\contentsline {section}{\numberline {3.1}概要}{11}{}%
+\contentsline {section}{\numberline {3.2}要求仕様}{11}{}%
+\contentsline {section}{\numberline {3.3}システム構成}{12}{}%
+\contentsline {section}{\numberline {3.4}ソフトウェア構成}{13}{}%
+\contentsline {section}{\numberline {3.5}データセットの作成}{14}{}%
+\contentsline {section}{\numberline {3.6}YOLOv8による学習}{16}{}%
+\contentsline {section}{\numberline {3.7}追従目標の特定}{17}{}%
+\contentsline {section}{\numberline {3.8}ロボット台車の制御}{18}{}%
+\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{19}{}%
+\contentsline {section}{\numberline {4.1}実験目的}{19}{}%
+\contentsline {section}{\numberline {4.2}実験方法}{19}{}%
+\contentsline {subsection}{\numberline {4.2.1}実験機材}{20}{}%
+\contentsline {subsection}{\numberline {4.2.2}追従実験}{21}{}%
+\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{24}{}%
+\contentsline {section}{\numberline {4.3}実験結果}{25}{}%
+\contentsline {subsection}{\numberline {4.3.1}追従実験}{25}{}%
+\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{26}{}%
+\contentsline {section}{\numberline {4.4}考察}{27}{}%
+\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{28}{}%
+\contentsline {section}{\numberline {5.1}まとめ}{28}{}%
+\contentsline {section}{\numberline {5.2}今後の課題}{28}{}%
+\contentsline {chapter}{Acknowledgments}{29}{}%
+\contentsline {chapter}{References}{30}{}%
+\contentsline {chapter}{Appendices}{31}{}%
