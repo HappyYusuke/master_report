@@ -24,88 +24,103 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}PointPillars}{7}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}ReID3D}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}従来研究における課題と本研究の位置づけ}{10}{}\protected@file@percent }
+\citation{Are we ready for autonomous driving? the KITTI vision benchmark suite}
 \@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\ 3}Method}{11}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}概要}{11}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}要求仕様}{11}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}システム構成}{12}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces System configuration chart\relax }}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}システム構成}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces System overview.\relax }}{12}{}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{System configuration chart}{{3.1}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}ソフトウェア構成}{13}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Software configuration diagram\relax }}{13}{}\protected@file@percent }
-\newlabel{Software configuration diagram}{{3.2}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}データセットの作成}{14}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of an overhead view image\relax }}{15}{}\protected@file@percent }
-\newlabel{Example of an overhead view image}{{3.3}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Example data sets\relax }}{15}{}\protected@file@percent }
-\newlabel{Example data sets}{{3.4}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}YOLOv8による学習}{16}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Training results\relax }}{16}{}\protected@file@percent }
-\newlabel{Training results}{{3.5}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of inference results with YOLOv8 using learned weights\relax }}{16}{}\protected@file@percent }
-\newlabel{Example of inference results with YOLOv8 using learned weights}{{3.6}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}追従目標の特定}{17}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Multiple leg sections detected on both legs\relax }}{17}{}\protected@file@percent }
-\newlabel{yolo image}{{3.7}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Target identification methods\relax }}{17}{}\protected@file@percent }
-\newlabel{Target identification methods}{{3.8}{17}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.8}ロボット台車の制御}{18}{}\protected@file@percent }
-\newlabel{angularPID}{{3.1}{18}}
-\newlabel{angularPD}{{3.2}{18}}
-\newlabel{linearPID}{{3.3}{18}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{19}{}\protected@file@percent }
+\newlabel{System overview.}{{3.1}{12}}
+\@writefile{toc}{\contentsline {paragraph}{登録フェーズ}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{追従フェーズ}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}ソフトウェア構成}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}データセットの作成}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}データ収集}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Software stack.\relax }}{14}{}\protected@file@percent }
+\newlabel{Software stack.}{{3.2}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Data collection environment.\relax }}{15}{}\protected@file@percent }
+\newlabel{Data collection environment.}{{3.3}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces LiDAR and custom stand.\relax }}{15}{}\protected@file@percent }
+\newlabel{LiDAR and custom stand.}{{3.4}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Height comparison.\relax }}{15}{}\protected@file@percent }
+\newlabel{Height comparison.}{{3.5}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}アノテーション}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}データ拡張}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}PointPillarsの再学習}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}トラッキング}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}ロボット制御}{16}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces 実験画像一覧 (1/2)\relax }}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {No.9496}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {No.9497}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {No.9498}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {No.9499}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(e)}{\ignorespaces {No.9500}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(f)}{\ignorespaces {No.9502}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(g)}{\ignorespaces {No.9503}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(h)}{\ignorespaces {No.9504}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(i)}{\ignorespaces {No.9505}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(j)}{\ignorespaces {No.9506}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(k)}{\ignorespaces {No.9507}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(l)}{\ignorespaces {No.9508}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(m)}{\ignorespaces {No.9509}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(n)}{\ignorespaces {No.9510}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(o)}{\ignorespaces {No.9511}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(p)}{\ignorespaces {No.9512}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(q)}{\ignorespaces {No.9513}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(r)}{\ignorespaces {No.9514}}}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{18}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}実験目的}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}実験方法}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}実験機材}{20}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Happy Edu\relax }}{20}{}\protected@file@percent }
-\newlabel{Happy Edu}{{4.1}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces {ASUS ROG Strix G16 specification}\relax }}{20}{}\protected@file@percent }
-\newlabel{ASUS ROG Strix G16 specification}{{4.1}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces {TurtleBot3 Big Wheel specification}\relax }}{21}{}\protected@file@percent }
-\newlabel{TurtleBot3 Big Wheel specification}{{4.2}{21}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces {UTM30-LX specification}\relax }}{21}{}\protected@file@percent }
-\newlabel{UTM30-LX specification}{{4.3}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}追従実験}{21}{}\protected@file@percent }
-\newlabel{Success rate}{{4.1}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 206)\relax }}{22}{}\protected@file@percent }
-\newlabel{Image of tracking experiment environment (FMT Laboratory Room 206)}{{4.2}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 326)\relax }}{22}{}\protected@file@percent }
-\newlabel{Image of tracking experiment environment (FMT Laboratory Room 326)}{{4.3}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Straight road\relax }}{23}{}\protected@file@percent }
-\newlabel{Straight road}{{4.4}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Curved road\relax }}{23}{}\protected@file@percent }
-\newlabel{Curved road}{{4.5}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Right angle road\relax }}{23}{}\protected@file@percent }
-\newlabel{Right angle road}{{4.6}{23}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{24}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Maximum tracking speed experiment environment image (FMT Laboratory Room 326)\relax }}{24}{}\protected@file@percent }
-\newlabel{Maximum tracking speed experiment environment image (FMT Laboratory Room 326)}{{4.7}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Image of maximum tracking speed experiment\relax }}{24}{}\protected@file@percent }
-\newlabel{Image of maximum tracking speed experiment}{{4.8}{24}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}実験結果}{25}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}追従実験}{25}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces {Success rate of traking in each road}\relax }}{25}{}\protected@file@percent }
-\newlabel{Success rate of traking in each road}{{4.4}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Tracking experiment (Real view)\relax }}{25}{}\protected@file@percent }
-\newlabel{Tracking experiment (Real view)}{{4.9}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Tracking experiment (Internal view)\relax }}{25}{}\protected@file@percent }
-\newlabel{Tracking experiment (Internal view)}{{4.10}{25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{26}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces {Maximum tracking speed experimental result}\relax }}{26}{}\protected@file@percent }
-\newlabel{Maximum tracking speed experimental result}{{4.5}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Tracking speed graph\relax }}{26}{}\protected@file@percent }
-\newlabel{Tracking speed graph}{{4.11}{26}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}考察}{27}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{28}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}実験目的}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}実験方法}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}実験機材}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Happy Edu\relax }}{19}{}\protected@file@percent }
+\newlabel{Happy Edu}{{4.1}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces {ASUS ROG Strix G16 specification}\relax }}{19}{}\protected@file@percent }
+\newlabel{ASUS ROG Strix G16 specification}{{4.1}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces {TurtleBot3 Big Wheel specification}\relax }}{20}{}\protected@file@percent }
+\newlabel{TurtleBot3 Big Wheel specification}{{4.2}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces {UTM30-LX specification}\relax }}{20}{}\protected@file@percent }
+\newlabel{UTM30-LX specification}{{4.3}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}追従実験}{20}{}\protected@file@percent }
+\newlabel{Success rate}{{4.1}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 206)\relax }}{21}{}\protected@file@percent }
+\newlabel{Image of tracking experiment environment (FMT Laboratory Room 206)}{{4.2}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 326)\relax }}{21}{}\protected@file@percent }
+\newlabel{Image of tracking experiment environment (FMT Laboratory Room 326)}{{4.3}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Straight road\relax }}{22}{}\protected@file@percent }
+\newlabel{Straight road}{{4.4}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Curved road\relax }}{22}{}\protected@file@percent }
+\newlabel{Curved road}{{4.5}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Right angle road\relax }}{22}{}\protected@file@percent }
+\newlabel{Right angle road}{{4.6}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{23}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Maximum tracking speed experiment environment image (FMT Laboratory Room 326)\relax }}{23}{}\protected@file@percent }
+\newlabel{Maximum tracking speed experiment environment image (FMT Laboratory Room 326)}{{4.7}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Image of maximum tracking speed experiment\relax }}{23}{}\protected@file@percent }
+\newlabel{Image of maximum tracking speed experiment}{{4.8}{23}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}実験結果}{24}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}追従実験}{24}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces {Success rate of traking in each road}\relax }}{24}{}\protected@file@percent }
+\newlabel{Success rate of traking in each road}{{4.4}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Tracking experiment (Real view)\relax }}{24}{}\protected@file@percent }
+\newlabel{Tracking experiment (Real view)}{{4.9}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Tracking experiment (Internal view)\relax }}{24}{}\protected@file@percent }
+\newlabel{Tracking experiment (Internal view)}{{4.10}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{25}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces {Maximum tracking speed experimental result}\relax }}{25}{}\protected@file@percent }
+\newlabel{Maximum tracking speed experimental result}{{4.5}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Tracking speed graph\relax }}{25}{}\protected@file@percent }
+\newlabel{Tracking speed graph}{{4.11}{25}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}考察}{26}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{27}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}まとめ}{28}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}今後の課題}{28}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{Acknowledgments}{29}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}まとめ}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}今後の課題}{27}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Acknowledgments}{28}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{LiDAR-based Person Re-identification}{1}
@@ -113,21 +128,21 @@
 \bibcite{Online learning for 3D LiDAR-based human detection: experimental analysis of point cloud clustering and classification methods}{3}
 \bibcite{Monocular Person Tracking and Identification with On-line Deep Feature Selection for Person Following Robots}{4}
 \bibcite{PointPillars: Fast Encoders for Object Detection from Point Clouds}{5}
-\bibcite{A Robust Autonomous Following Method for Mobile Robots in Dynamic Environments}{6}
-\@writefile{toc}{\contentsline {chapter}{References}{30}{}\protected@file@percent }
+\bibcite{Are we ready for autonomous driving? the KITTI vision benchmark suite}{6}
+\@writefile{toc}{\contentsline {chapter}{References}{29}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{Appendices}{31}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Appendices}{30}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{param}{{5.1}{31}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.1}follow\_me\_params.yaml}{31}{}\protected@file@percent }
-\newlabel{image}{{5.2}{32}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.2}laser\_to\_image.py}{32}{}\protected@file@percent }
-\newlabel{person}{{5.3}{35}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.3}person\_detector.py}{35}{}\protected@file@percent }
-\newlabel{base}{{5.4}{40}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.4}base\_controller.py}{40}{}\protected@file@percent }
-\newlabel{launch}{{5.5}{44}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.5}follow\_me.launch.py}{44}{}\protected@file@percent }
-\gdef \@abspage@last{50}
+\newlabel{param}{{5.1}{30}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.1}follow\_me\_params.yaml}{30}{}\protected@file@percent }
+\newlabel{image}{{5.2}{31}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.2}laser\_to\_image.py}{31}{}\protected@file@percent }
+\newlabel{person}{{5.3}{34}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.3}person\_detector.py}{34}{}\protected@file@percent }
+\newlabel{base}{{5.4}{39}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.4}base\_controller.py}{39}{}\protected@file@percent }
+\newlabel{launch}{{5.5}{43}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.5}follow\_me.launch.py}{43}{}\protected@file@percent }
+\gdef \@abspage@last{48}

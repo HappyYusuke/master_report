@@ -4,26 +4,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System configuration chart\relax }}{12}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Software configuration diagram\relax }}{13}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of an overhead view image\relax }}{15}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example data sets\relax }}{15}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Training results\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of inference results with YOLOv8 using learned weights\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Multiple leg sections detected on both legs\relax }}{17}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Target identification methods\relax }}{17}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System overview.\relax }}{12}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Software stack.\relax }}{14}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Data collection environment.\relax }}{15}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces LiDAR and custom stand.\relax }}{15}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Height comparison.\relax }}{15}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 実験画像一覧 (1/2)\relax }}{17}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {No.9496}}}{17}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {No.9497}}}{17}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {No.9498}}}{17}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {No.9499}}}{17}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {No.9500}}}{17}{}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {No.9502}}}{17}{}%
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {No.9503}}}{17}{}%
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {No.9504}}}{17}{}%
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {No.9505}}}{17}{}%
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {No.9506}}}{17}{}%
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {No.9507}}}{17}{}%
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {No.9508}}}{17}{}%
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {No.9509}}}{17}{}%
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {No.9510}}}{17}{}%
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {No.9511}}}{17}{}%
+\contentsline {subfigure}{\numberline {(p)}{\ignorespaces {No.9512}}}{17}{}%
+\contentsline {subfigure}{\numberline {(q)}{\ignorespaces {No.9513}}}{17}{}%
+\contentsline {subfigure}{\numberline {(r)}{\ignorespaces {No.9514}}}{17}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Happy Edu\relax }}{20}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 206)\relax }}{22}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 326)\relax }}{22}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Straight road\relax }}{23}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Curved road\relax }}{23}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Right angle road\relax }}{23}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Maximum tracking speed experiment environment image (FMT Laboratory Room 326)\relax }}{24}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Image of maximum tracking speed experiment\relax }}{24}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Tracking experiment (Real view)\relax }}{25}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Tracking experiment (Internal view)\relax }}{25}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Tracking speed graph\relax }}{26}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Happy Edu\relax }}{19}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 206)\relax }}{21}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Image of tracking experiment environment (FMT Laboratory Room 326)\relax }}{21}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Straight road\relax }}{22}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Curved road\relax }}{22}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Right angle road\relax }}{22}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Maximum tracking speed experiment environment image (FMT Laboratory Room 326)\relax }}{23}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Image of maximum tracking speed experiment\relax }}{23}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tracking experiment (Real view)\relax }}{24}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Tracking experiment (Internal view)\relax }}{24}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Tracking speed graph\relax }}{25}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
