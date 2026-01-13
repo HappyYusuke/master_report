@@ -4,12 +4,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Data augmentation parameters.}}{22}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Hyper parameters for PointPillars training.}}{23}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces {ASUS ROG Strix G16 specification}\relax }}{19}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces {TurtleBot3 Big Wheel specification}\relax }}{20}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces {UTM30-LX specification}\relax }}{20}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces {Success rate of traking in each road}\relax }}{24}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces {Maximum tracking speed experimental result}\relax }}{25}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces {ASUS ROG Strix G16 specification}}}{25}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces {TurtleBot3 Big Wheel specification}}}{26}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces {UTM30-LX specification}}}{26}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces {Success rate of traking in each road}}}{30}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces {Maximum tracking speed experimental result}}}{31}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

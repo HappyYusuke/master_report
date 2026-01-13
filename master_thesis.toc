@@ -18,22 +18,25 @@
 \contentsline {subsection}{\numberline {3.4.1}データ収集}{13}{}%
 \contentsline {subsection}{\numberline {3.4.2}アノテーション}{16}{}%
 \contentsline {subsection}{\numberline {3.4.3}データ拡張}{16}{}%
-\contentsline {section}{\numberline {3.5}PointPillarsの再学習}{16}{}%
-\contentsline {section}{\numberline {3.6}トラッキング}{16}{}%
-\contentsline {section}{\numberline {3.7}ロボット制御}{16}{}%
-\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{18}{}%
-\contentsline {section}{\numberline {4.1}実験目的}{18}{}%
-\contentsline {section}{\numberline {4.2}実験方法}{18}{}%
-\contentsline {subsection}{\numberline {4.2.1}実験機材}{19}{}%
-\contentsline {subsection}{\numberline {4.2.2}追従実験}{20}{}%
-\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{23}{}%
-\contentsline {section}{\numberline {4.3}実験結果}{24}{}%
-\contentsline {subsection}{\numberline {4.3.1}追従実験}{24}{}%
-\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{25}{}%
-\contentsline {section}{\numberline {4.4}考察}{26}{}%
-\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{27}{}%
-\contentsline {section}{\numberline {5.1}まとめ}{27}{}%
-\contentsline {section}{\numberline {5.2}今後の課題}{27}{}%
-\contentsline {chapter}{Acknowledgments}{28}{}%
-\contentsline {chapter}{References}{29}{}%
-\contentsline {chapter}{Appendices}{30}{}%
+\contentsline {section}{\numberline {3.5}PointPillarsの学習}{19}{}%
+\contentsline {section}{\numberline {3.6}トラッキング}{20}{}%
+\contentsline {subsection}{\numberline {3.6.1}状態変数とモデルの定義}{20}{}%
+\contentsline {subsection}{\numberline {3.6.2}予測ステップ (Predict)}{21}{}%
+\contentsline {subsection}{\numberline {3.6.3}更新ステップ (Update)}{22}{}%
+\contentsline {subsection}{\numberline {3.6.4}実装上の特徴}{23}{}%
+\contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{24}{}%
+\contentsline {section}{\numberline {4.1}実験目的}{24}{}%
+\contentsline {section}{\numberline {4.2}実験方法}{24}{}%
+\contentsline {subsection}{\numberline {4.2.1}実験機材}{25}{}%
+\contentsline {subsection}{\numberline {4.2.2}追従実験}{26}{}%
+\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{29}{}%
+\contentsline {section}{\numberline {4.3}実験結果}{30}{}%
+\contentsline {subsection}{\numberline {4.3.1}追従実験}{30}{}%
+\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{31}{}%
+\contentsline {section}{\numberline {4.4}考察}{31}{}%
+\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{32}{}%
+\contentsline {section}{\numberline {5.1}まとめ}{32}{}%
+\contentsline {section}{\numberline {5.2}今後の課題}{32}{}%
+\contentsline {chapter}{Acknowledgments}{33}{}%
+\contentsline {chapter}{References}{34}{}%
+\contentsline {chapter}{Appendices}{35}{}%

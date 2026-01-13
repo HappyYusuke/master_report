@@ -86,16 +86,17 @@ Fitzroyを採用しており，各DockerコンテナおよびホストPCはROS2�
     \end{center}
 \end{figure*}
 
+
+
 \section{データセットの作成}
 \subsection{データ収集}
-データ収集環境をFig.\ref{Data collection environment.}に示す。部屋の広さは
-$6.0,\mathrm{m} \times 7.1,\mathrm{m}$である。LiDARは
-Fig.\ref{LiDAR and custom stand.}のようにスタンドに固定し、部屋の中央に設置した。
-本実験では、LiDARをロボットへ搭載することを想定し、
-Fig.\ref{LiDAR and custom stand.}に示す専用スタンドを製作した。このスタンドは、
-Fig.\ref{Height comparison.}に示すロボットのセンサ搭載位置と条件を一致させるよう
-設計されており、LiDARの設置高さが地面から 119.5 mm となるように設定されている。
-
+データ収集環境をFig.\ref{Data collection environment.}に示す。実験室の広さは
+$6.0\,\mathrm{m} \times 7.1\,\mathrm{m}$ である。LiDARは
+Fig.\ref{LiDAR and custom stand.}に示すように専用スタンドに固定し、部屋の中央に設置した。
+本実験では、実機ロボットへの搭載を模擬するため、
+Fig.\ref{LiDAR and custom stand.}に示すスタンドを独自に製作した。このスタンドは、
+Fig.\ref{Height comparison.}に示すロボットのセンサ搭載位置と条件を一致させるよう設計
+されており、LiDARの設置高さは地面から $119.5\,\mathrm{mm}$ となるように設定されている。
 
 \begin{figure*}[h]
     \begin{center}
@@ -104,7 +105,6 @@ Fig.\ref{Height comparison.}に示すロボットのセンサ搭載位置と条�
     \label{Data collection environment.}
     \end{center}
 \end{figure*}
-
 
 \begin{figure*}[h]
   \begin{minipage}[b]{0.5\linewidth}
@@ -123,38 +123,302 @@ Fig.\ref{Height comparison.}に示すロボットのセンサ搭載位置と条�
 
 \clearpage
 
+データ収集には5名の被験者が参加した。各被験者は、
+Fig.\ref{Overview of subjects captured for data collection (1/2).}および
+Fig.\ref{Overview of subjects captured for data collection (2/2).}に示すように、
+多様な服装を着用した状態で計測を行った。被験者は
+Fig.\ref{Walking patterns in data collection.}に示す5種類の歩行パターンに従って
+LiDARの周囲を歩行し、合計で12セットのデータを収集した。ここから各セットにつき85フレーム
+をランダムに抽出し、計1020フレームの学習用データを取得した。さらに、検証用データセット
+として、異なる環境下において別の被験者3名のデータを収集し、同様に200フレームをランダムに
+抽出した。以上を合わせ、合計1220フレームからなるデータセットを構築した。
+
 %===========================================================
-% 1ページ目：前半 18枚
+% 1ページ目：前半 20枚
 %===========================================================
 \begin{figure}[p]
     \centering
     % リスト内の改行コードがスペース化しないよう % を付加し、カンマ後のスペースも削除
     \foreach \n [count=\i] in {%
-        9496,9497,9498,9499,9500,9502,%
-        9503,9504,9505,9506,9507,9508,%
-        9509,9510,9511,9512,9513,9514%
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20%
     }{
-        \subfigure[No.\n]{
+        \subfigure[]{
             % ↓ ここも念のため確認： \n.JPG の間にスペースがないか
-            \includegraphics[width=0.3\linewidth]{figure/IMG_\n.JPG}
+            \includegraphics[width=0.17\linewidth]{figure/\n.png}
         }%
-        \ifnum\numexpr\i-((\i-1)/3)*3\relax=0 \par\vspace{1mm} \else \hfill \fi
+        \ifnum\numexpr\i-((\i-1)/4)*4\relax=0 \par\vspace{1.0mm} \else \hfill \fi
     }
-    \caption{実験画像一覧 (1/2)}
+    \caption{Overview of subjects captured for data collection (1/2).}
+    \label{Overview of subjects captured for data collection (1/2).}
+\end{figure}
+
+%===========================================================
+% 2ページ目：後半 13枚
+%===========================================================
+\begin{figure}[p]
+    \centering
+    % リスト内の改行コードがスペース化しないよう % を付加し、カンマ後のスペースも削除
+    \foreach \n [count=\i] in {%
+        21,22,23,24,25,26,27,28,29,30,31,32,33%
+    }{
+        \subfigure[]{
+            % ↓ ここも念のため確認： \n.JPG の間にスペースがないか
+            \includegraphics[width=0.2\linewidth]{figure/\n.png}
+        }%
+        \ifnum\numexpr\i-((\i-1)/4)*4\relax=0 \par\vspace{1mm} \else \hfill \fi
+    }
+    \caption{Overview of subjects captured for data collection (2/2).}
+    \label{Overview of subjects captured for data collection (2/2).}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    % --- 1段目（3枚） ---
+    \subfigure[Straight trajectory.]{
+        \includegraphics[width=0.3\linewidth]{figure/traj_straight.png}
+    }
+    \hfill
+    \subfigure[Walking around the sensor.]{
+        \includegraphics[width=0.3\linewidth]{figure/traj_curve.png}
+    }
+    \hfill
+    \subfigure[Circular trajectory.]{
+        \includegraphics[width=0.3\linewidth]{figure/traj_circle.png}
+    }
+    
+    \vspace{2mm} % 上下の段の間隔調整
+    
+    % --- 2段目（2枚） ---
+    \subfigure[Lateral meandering trajectory.]{
+        \includegraphics[width=0.3\linewidth]{figure/traj_side.png}
+    }
+    \quad % 画像間のスペース（\hfillだと端に寄ってしまうため\quad等で調整）
+    \subfigure[Longitudinal meandering trajectory.]{
+        \includegraphics[width=0.3\linewidth]{figure/traj_updown.png}
+    }
+    
+    \caption{Walking patterns in data collection.}
+    \label{Walking patterns in data collection.}
 \end{figure}
 
 \subsection{アノテーション}
+アノテーション作業の様子をFig. \ref{Annotation using BAT 3D.}に示す。本研究ではアノテ
+ーションに点群データのみを用い、ツールとしてBAT 3Dを採用した。BAT 3Dは、Webブラウザ上で
+動作するオープンソースツールである3D BAT
+\cite{3D BAT: A Semi-Automatic, Web-based 3D Annotation Toolbox for 
+    Full-Surround, Multi-Modal Data Streams} 
+の後継ソフトウェアである。収集した点群データに対し、歩行者（Pedestrian）のバウンディング
+ボックスの付与を行った。BAT 3Dでは、バウンディングボックスを配置すると、
+Fig.\ref{Annotation using BAT 3D.}に示すように画面左側にXYZ各軸方向からの視点（三面図）
+が表示され、画面右側には位置や姿勢を調整するインターフェースが表示される。この機能により、
+3次元空間上での細かな位置合わせが容易となり、歩行者の正確なアノテーションが可能となった。
+
+\begin{figure*}[h]
+    \begin{center}
+    \includegraphics[width=150mm,clip]{figure/bat-3d.png}
+    \caption{Annotation using BAT 3D.}
+    \label{Annotation using BAT 3D.}
+    \end{center}
+\end{figure*}
 
 \subsection{データ拡張}
+データ拡張の適用例をFig. \ref{Examples of data augmentation.}に示す。本研究では、
+学習データの多様性を向上させるため、独自に実装したプログラムを用いて点群データの拡張を
+行った。拡張には、主に以下の3種類の手法を採用した。
 
+第一に、Ground Truth Sampling (GT-Sampling) である。これは、学習データセットに含まれる
+歩行者の点群をランダムに抽出し、対象のフレームに追加配置する手法である。 第二に、ローカル
+変換 (Local Transformation) である。各歩行者の点群に対し、個別に回転、スケーリング
+（拡大縮小）、位置ノイズおよび点群ノイズの付与を行う。 第三に、グローバル変換 
+(Global Transformation) である。フレーム内の点群全体に対して、一括して回転、スケーリング
+、左右反転を適用する。
 
+各手法における具体的なパラメータ設定をTable \ref{Data augmentation parameters.}に示す。
+これらの処理により、学習用データ1,020フレームから15,000フレーム、検証用データ200フレーム
+から4,500フレームを生成し、合計19,500フレームのデータセットを構築した。
 
-\section{PointPillarsの再学習}
+\begin{figure}[htbp]
+    \centering
+    \subfigure[Original point cloud.]{
+        \includegraphics[width=0.45\linewidth]{figure/PointCloud_origin.png}
+    }
+    \hfill
+    \subfigure[Augmented point cloud.]{
+        \includegraphics[width=0.45\linewidth]{figure/PointCloud_aug.png}
+    }
+    \hfill
+    \caption{Examples of data augmentation.}
+    \label{Examples of data augmentation.}
+\end{figure}
 
+\begin{table}[h]
+  \centering
+  \caption{Data augmentation parameters.}
+  \label{Data augmentation parameters.}
+  \begin{tabular}{lr} \toprule
+    Parameter & Value \\ \midrule
+    
+    % GT-Sampling Settings
+    \multicolumn{2}{l}{\textbf{GT-Sampling Settings}} \\ 
+    Maximum number of added persons & $20$ \\
+    $x$-coordinate range [m] & $-6$ to $10$ \\
+    $y$-coordinate range [m] & $-6$ to $6$ \\ \midrule
 
+    % Local Transformation Settings
+    \multicolumn{2}{l}{\textbf{Local Transformation Settings}} \\
+    Rotation around $z$-axis [rad] & $-\pi/2$ to $\pi/2$ \\
+    Rotation around $x$- and $y$-axes [rad] & $-\pi/36$ to $\pi/36$ \\
+    Scale  & $0.95$ to $1.05$ \\
+    Position noise std. dev. [m] & $0.1$ \\
+    Point clouds noise std. dev. [m] & $0.01$ \\ \midrule
+
+    % Global Transformation Settings
+    \multicolumn{2}{l}{\textbf{Global Transformation Settings}} \\
+    Global rotation [rad] & $-\pi/4$ to $\pi/4$ \\
+    Global scale & $0.95$ to $1.05$ \\
+    Flip probability & $0.5$ \\ \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{PointPillarsの学習}
+PointPillarsの学習には、前節で構築したデータセットを使用した。学習はNVIDIAのTAO Toolkit
+を用いて実施した。TAO Toolkitは、深層学習モデルの効率的な学習と最適化を支援するフレーム
+ワークであり、PointPillarsの学習済みモデルも提供されている。本研究では、TAO Toolkitの
+PointPillars学習パイプラインを利用し、前節で構築したデータセットを用いてファインチュー
+ニングを行った。また、学習にはRTX 3090 24GBを2枚搭載したデスクトップPCで学習を行った。
+学習に使用したハイパーパラメータを
+Table\ref{Hyper parameters for PointPillars training.}に示す。
+
+\begin{table}[h]
+  \centering
+  \caption{Hyper parameters for PointPillars training.}
+  \label{Hyper parameters for PointPillars training.}
+  \begin{tabular}{lr} \toprule
+    Parameter & Value \\ \midrule
+    batch\_size\_per\_gpu & 8 \\
+    num\_epochs & 800 \\
+    optimizer & adam\_onecycle \\
+    lr & 0.003 \\
+    weight\_decay & 0.01 \\
+    momentum & 0.9 \\
+    moms & [0.95, 0.85] \\
+    pct\_start & 0.4 \\
+    div\_factor & 10.0 \\
+    decay\_step\_list & [35, 45] \\
+    lr\_decay & 0.1 \\
+    lr\_clip & 0.0000001 \\
+    lr\_warmup & False \\
+    warmup\_epoch & 1 \\
+    grad\_norm\_clip & 10.0 \\ \bottomrule
+  \end{tabular}
+\end{table}
+
+本モデルの学習におけるハイパーパラメータの設定について述べる。学習は800エポックにわたり
+実施し、GPUあたりのバッチサイズは8とした。最適化アルゴリズムにはAdamを採用し、学習率の
+スケジューリングにはOne Cycle Policyを適用した。One Cycle Policyは、学習の進行に伴い
+学習率を初期値から最大値まで上昇させた後、再び減少させる手法であり、これにより学習の高速
+化と過学習の抑制を両立させている。また、初期学習率（Base Learning Rate）は0.003とし、
+全学習ステップのうち40\%（pct\_start = 0.4）を学習率の上昇フェーズに割り当て、残りの期間
+で学習率を減少させる構成とした。また、学習率の変動と連動してモーメンタムを0.95から0.85の
+範囲で逆相関的に推移させることで、パラメータ更新の効率化を図っている。さらに、学習の安定性
+を確保するために勾配クリッピング（Gradient Norm Clip）を導入した。これは、誤差逆伝播法に
+よって算出された勾配のL2ノルムが閾値（本実験では10.0）を超えた際、その大きさを制限する処理
+である。この処理により、勾配爆発などの急激なパラメータ変動を防ぎ、安定した学習を実現している。
 
 \section{トラッキング}
+トラッキングには、物体の3次元位置 $(x, y, z)$ とそれぞれの速度 $(v_x, v_y, v_z)$ を
+状態変数として管理し、観測ノイズが含まれる点群データから真の位置を推定するために、等速
+直線運動モデルに基づいた線形カルマンフィルタを実装した。このアルゴリズムは、物理モデル
+に基づいて次時刻の状態を推測する「予測ステップ」と、センサの観測値を用いて推定値を補正
+する「更新ステップ」の2段階で構成される。
 
+\subsection{状態変数とモデルの定義}
 
+システムの状態ベクトル $\mathbf{x}_k$ は、位置と速度成分を持つ以下の6次元ベクトルとして
+定義される。
 
-\section{ロボット制御}
+\begin{equation}
+\mathbf{x}_k = \begin{bmatrix} x & y & z & v_x & v_y & v_z \end{bmatrix}^T_k
+\end{equation}
+
+物体は微小時間 $dt$ の間、等速で移動すると仮定する。この等速直線運動モデルに基づき、
+状態遷移行列（State Transition Matrix） $\mathbf{F}$ は以下のように定義される。
+なお、実装においては $dt$ は直前のフレームからの経過時間として動的に更新される。
+
+\begin{equation}
+\mathbf{F} = \begin{bmatrix} 
+1 & 0 & 0 & dt & 0 & 0 \\
+0 & 1 & 0 & 0 & dt & 0 \\
+0 & 0 & 1 & 0 & 0 & dt \\
+0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & 0 & 1 
+\end{bmatrix}
+\end{equation}
+
+\subsection{予測ステップ (Predict)}
+
+前時刻 $k-1$ の推定値から、現時刻 $k$ の状態を予測する。
+
+\begin{itemize}
+    \item \textbf{状態予測 (State Prediction)}:
+    現在の速度推定値に基づいて、次の位置を線形予測する。
+    \begin{equation}
+    \mathbf{\hat{x}}_{k|k-1} = \mathbf{F} \mathbf{\hat{x}}_{k-1|k-1}
+    \end{equation}
+    
+    \item \textbf{誤差共分散行列の予測 (Covariance Prediction)}:
+    推定の不確かさを表す誤差共分散行列 $\mathbf{P}$ を更新する。
+    ここで $\mathbf{Q}$ はプロセスノイズ共分散行列であり、等速運動モデルからの乖離
+    （加速度変動など）の許容量を表す。本実装では対角成分に $0.1$ を設定している。
+    \begin{equation}
+    \mathbf{P}_{k|k-1} = \mathbf{F} \mathbf{P}_{k-1|k-1} \mathbf{F}^T + \mathbf{Q}
+    \end{equation}
+\end{itemize}
+
+\subsection{更新ステップ (Update)}
+
+PointPillarsから得られた観測値 $\mathbf{z}_k$ を用いて、予測値を補正する。観測ベクトル
+は位置のみの3次元ベクトル $\mathbf{z}_k = [z_x, z_y, z_z]^T$ である。
+
+\begin{itemize}
+    \item \textbf{観測モデル (Observation Model)}:
+    6次元の状態ベクトルから観測可能な3次元の位置成分を取り出すための観測行列 
+    $\mathbf{H}$ を用いる。
+    \begin{equation}
+    \mathbf{H} = \begin{bmatrix} 
+    1 & 0 & 0 & 0 & 0 & 0 \\ 
+    0 & 1 & 0 & 0 & 0 & 0 \\ 
+    0 & 0 & 1 & 0 & 0 & 0 
+    \end{bmatrix}
+    \end{equation}
+
+    \item \textbf{カルマンゲインの計算 (Kalman Gain)}:
+    予測値と観測値の信頼度のバランスを決定するカルマンゲイン $\mathbf{K}_k$ を算出する。
+    ここで $\mathbf{R}$ は観測ノイズ共分散行列であり、センサの測定誤差を表す。本実装では
+    $\mathbf{R} = 1.0 \cdot \mathbf{I}$ と設定している。
+    \begin{align}
+    \mathbf{S}_k &= \mathbf{H} \mathbf{P}_{k|k-1} \mathbf{H}^T + \mathbf{R} \\
+    \mathbf{K}_k &= \mathbf{P}_{k|k-1} \mathbf{H}^T \mathbf{S}_k^{-1}
+    \end{align}
+
+    \item \textbf{状態の更新 (State Update)}:
+    観測残差 
+    $\mathbf{y}_k = \mathbf{z}_k - \mathbf{H}\mathbf{\hat{x}}_{k|k-1}$ 
+    にカルマンゲインを乗じて予測値を補正し、最終的な推定値を得る。
+    \begin{equation}
+    \mathbf{\hat{x}}_{k|k} = \mathbf{\hat{x}}_{k|k-1} + \mathbf{K}_k (\mathbf{z}_k - \mathbf{H}\mathbf{\hat{x}}_{k|k-1})
+    \end{equation}
+
+    \item \textbf{誤差共分散行列の更新 (Covariance Update)}:
+    観測情報の反映に伴い、推定の不確かさを減少させる。
+    \begin{equation}
+    \mathbf{P}_{k|k} = (\mathbf{I} - \mathbf{K}_k \mathbf{H}) \mathbf{P}_{k|k-1}
+    \end{equation}
+\end{itemize}
+
+\subsection{実装上の特徴}
+本実装では、ROS2環境下での非同期なトピック受信に対応するため、固定のタイムステップでは
+なく、前回の更新時刻からの経過時間 $dt$ を用いて状態遷移行列 $\mathbf{F}$ を動的に計算
+している。また、初期化時には誤差共分散行列 $\mathbf{P}$ を $10.0 \cdot \mathbf{I}$ と
+大きく設定することで、追跡開始直後は観測値を重視し、急速に真値へ収束するよう設計されている。
