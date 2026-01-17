@@ -27,16 +27,14 @@
 \contentsline {chapter}{\numberline {Chapter\ 4}Experiments}{24}{}%
 \contentsline {section}{\numberline {4.1}実験目的}{24}{}%
 \contentsline {section}{\numberline {4.2}実験方法}{24}{}%
-\contentsline {subsection}{\numberline {4.2.1}実験機材}{25}{}%
-\contentsline {subsection}{\numberline {4.2.2}追従実験}{26}{}%
-\contentsline {subsection}{\numberline {4.2.3}最大追従速度実験}{29}{}%
-\contentsline {section}{\numberline {4.3}実験結果}{30}{}%
-\contentsline {subsection}{\numberline {4.3.1}追従実験}{30}{}%
-\contentsline {subsection}{\numberline {4.3.2}最大追従速度実験}{31}{}%
-\contentsline {section}{\numberline {4.4}考察}{31}{}%
-\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{32}{}%
-\contentsline {section}{\numberline {5.1}まとめ}{32}{}%
-\contentsline {section}{\numberline {5.2}今後の課題}{32}{}%
-\contentsline {chapter}{Acknowledgments}{33}{}%
-\contentsline {chapter}{References}{34}{}%
-\contentsline {chapter}{Appendices}{35}{}%
+\contentsline {subsection}{\numberline {4.2.1}歩行者検出性能に関する比較実験}{24}{}%
+\contentsline {subsection}{\numberline {4.2.2}追跡・再識別性能に関する比較実験}{25}{}%
+\contentsline {section}{\numberline {4.3}実験結果}{25}{}%
+\contentsline {subsection}{\numberline {4.3.1}歩行者検出性能に関する比較実験}{25}{}%
+\contentsline {section}{\numberline {4.4}考察}{26}{}%
+\contentsline {chapter}{\numberline {Chapter\ 5}Conclusion}{27}{}%
+\contentsline {section}{\numberline {5.1}まとめ}{27}{}%
+\contentsline {section}{\numberline {5.2}今後の課題}{27}{}%
+\contentsline {chapter}{Acknowledgments}{29}{}%
+\contentsline {chapter}{References}{30}{}%
+\contentsline {chapter}{Appendices}{32}{}%
